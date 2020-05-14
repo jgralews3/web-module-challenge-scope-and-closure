@@ -63,8 +63,13 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Inside the personalDice function, because it returns a function inside another.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name is always the same, but the result of the roll would change.
+
 c. What is the lexical scope of `newRoll`? 
+Only accessible inside of the personalDice function.
 
 ### Task 3 - Stretch Goals
 
